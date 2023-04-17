@@ -1,0 +1,16 @@
+{
+  "name": "the-stoics-quotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-tw": "npx tailwindcss -i ./src/style.css -o ./build/style/style.css --watch",
+    "prettier": "npx prettier --write **/*html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.3"
+  }
+}
