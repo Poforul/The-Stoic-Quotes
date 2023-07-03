@@ -14,3 +14,8 @@
 .bg-d{
     background-color: #694a43;
 }
+@layer utilities{
+    .bg-c{
+        background-color: #523926;
+    }
+}
